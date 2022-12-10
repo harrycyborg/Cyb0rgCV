@@ -1,13 +1,17 @@
 *{
 	padding: 0;
 	margin: 0;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	box-sizing: border-box;
 }
 
 html{
-	scroll-behavior: smooth;
+	scroll-behavior: initial;
 }
+
+.logo{
+	width: 140px;
+	}
 
 html,body{
 	width: 100%;
@@ -49,7 +53,7 @@ nav ul li{
 	padding: 10px  25px;
 }
 nav ul li a{
-	color: white;
+	color: rgb(0, 0, 0);
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: capitalize;
@@ -127,9 +131,11 @@ h4{
 .about img{
 	height: auto;
 	width: 430px;
+	padding-right: 5%;
 }
 .about-text{
 	width: 550px;
+	
 }
 .main{
 	width: 1130px;
@@ -186,6 +192,7 @@ button:hover{
 	width: 1130px;
 	margin: 30px auto;
 	text-align: center;
+	
 }
 .box{
 	display: flex;
@@ -317,6 +324,8 @@ footer p:nth-child(2){
 	bottom: 35px;
 	font-size: 14px; 
 }
+
+
 /*-----------------------------css for small screenn-----------------------*/
 
 
